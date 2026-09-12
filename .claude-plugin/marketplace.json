@@ -1,0 +1,16 @@
+{
+  "name": "skills",
+  "description": "arisu's Claude Code plugin marketplace.",
+  "owner": {
+    "name": "arisu",
+    "email": "arisuokayokay@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "dev-workflow",
+      "source": "./plugins/dev-workflow",
+      "description": "Skills for everyday development workflow, such as commit message conventions.",
+      "version": "0.1.0"
+    }
+  ]
+}

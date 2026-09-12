@@ -1,0 +1,9 @@
+{
+  "name": "dev-workflow",
+  "version": "0.1.0",
+  "description": "Skills for everyday development workflow, such as commit message conventions.",
+  "author": {
+    "name": "arisu",
+    "email": "arisuokayokay@gmail.com"
+  }
+}
