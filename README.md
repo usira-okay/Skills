@@ -11,14 +11,13 @@ A Claude Code plugin marketplace.
 ## Install a plugin
 
 ```
-/plugin install hello-world@skills
+/plugin install dev-workflow@skills
 ```
 
 ## Available plugins
 
 | Plugin | Description |
 | --- | --- |
-| [hello-world](plugins/hello-world) | Minimal example plugin (`/hello` command) used to verify the marketplace setup. |
 | [dev-workflow](plugins/dev-workflow) | Skills for everyday development workflow, such as commit message conventions (`branch-aware-commits`). Install with `/plugin install dev-workflow@skills`. |
 
 ## Repo layout
@@ -26,9 +25,6 @@ A Claude Code plugin marketplace.
 ```
 .claude-plugin/marketplace.json   # marketplace manifest
 plugins/
-  hello-world/
-    .claude-plugin/plugin.json    # plugin manifest
-    commands/hello.md             # example command
   dev-workflow/
     .claude-plugin/plugin.json    # plugin manifest
     skills/
