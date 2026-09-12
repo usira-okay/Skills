@@ -1,0 +1,9 @@
+{
+  "name": "hello-world",
+  "version": "0.1.0",
+  "description": "Minimal example plugin used to verify the marketplace setup.",
+  "author": {
+    "name": "arisu",
+    "email": "arisuokayokay@gmail.com"
+  }
+}
